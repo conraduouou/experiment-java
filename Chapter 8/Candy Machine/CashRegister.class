@@ -1,0 +1,37 @@
+// class cashRegister
+public class CashRegister
+{
+    private int cashOnHand;         //  variable to store cash in register
+
+    // Default constructor
+    // To set the cash in the register 500 cents
+    // Postcondition: cashOnHand = 500
+    public CashRegister()
+    {
+        cashOnHand = 500;
+    }
+
+    // Constructor with parameters
+    // Postcondition: cashOnHand = num
+    public CashRegister(int num)
+    {
+        if (num >= 0)
+            cashOnHand = num;
+        else
+            cashOnHand = 500;
+    }
+
+    // method to show current amount in the cash register
+    // Postcondition: The value of the instance variable cashOnHand is returned.
+    public int currentBalance()
+    {
+        return cashOnHand;
+    }
+
+    // method to receive the amount deposited by the customer and update the amount in the register
+    // Postcondition: cashOnHand += amountIn
+    public void acceptAmount(int amountIn)
+    {
+        cashOnHand += amountIn;
+    }
+}

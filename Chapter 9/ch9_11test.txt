@@ -1,0 +1,35 @@
+    temperatures[0][0] = 16.00;
+    temperatures[0][1] = 32.00;
+
+    temperatures[1][0] = 19.20;
+    temperatures[1][1] = 38.20;
+    
+    temperatures[2][0] = 16.20;
+    temperatures[2][1] = 35.01;
+
+    temperatures[3][0] = 20.01;
+    temperatures[3][1] = 29.21;
+
+    temperatures[4][0] = 20.81;
+    temperatures[4][1] = 28.82;
+    
+    temperatures[5][0] = 34.82;
+    temperatures[5][1] = 40.82;
+    
+    temperatures[6][0] = 23.74;
+    temperatures[6][1] = 40.71;
+
+    temperatures[7][0] = 19.21;
+    temperatures[7][1] = 28.21;
+
+    temperatures[8][0] = 21.56;
+    temperatures[8][1] = 40.12;
+
+    temperatures[9][0] = 12.76;
+    temperatures[9][1] = 19.23;
+
+    temperatures[10][0] = 10.80;
+    temperatures[10][1] = 18.31;
+
+    temperatures[11][0] = 13.41;
+    temperatures[11][1] = 20.08;

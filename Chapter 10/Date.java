@@ -106,7 +106,15 @@ public class Date
     public boolean isLeapYear()
     {
         if (dYear % 4 == 0)
+        {
+            if (dYear % 100 == 0)
+                if (dYear % 400 == 0)
+                    return true;
+            else
+                return false;
+
             return true;
+        }
         
         return false;
     }
@@ -116,7 +124,15 @@ public class Date
     public boolean isLeapYear(int year)
     {
         if (year % 4 == 0)
+        {
+            if (year % 100 == 0)
+                if (year % 400 == 0)
+                    return true;
+            else
+                return false;
+            
             return true;
+        }
         
         return false;
     }
